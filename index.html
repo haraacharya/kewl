@@ -1,0 +1,997 @@
+<!doctype html>
+<!--[if lt IE 7]><html lang="en" class="no-js ie6"><![endif]-->
+<!--[if IE 7]><html lang="en" class="no-js ie7"><![endif]-->
+<!--[if IE 8]><html lang="en" class="no-js ie8"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en" class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>KewlBuddiesMakerLabs - Pratical oriented classes on basic electronics</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link href="favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery.easy-pie-chart.css">
+    <link rel="stylesheet" href="css/styles.css" title="mainStyle">
+
+    <!-- REVOLUTION BANNER CSS SETTINGS -->
+    <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen" />
+
+    <script src="js/modernizr.custom.32033.js"></script>
+
+    <!--[if IE]><script type="text/javascript" src="js/excanvas.compiled.js"></script><![endif]-->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div class="pre-loader">
+        <div class="load-con">
+            <img src="img/logo-blue.png" class="animated fadeInDown" alt="">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+    <div class="go-down">
+        <a href="#whoWeAre">
+            <i class="fa fa-angle-down fa-5x"></i>
+        </a>
+    </div>
+    <!-- Wrap all page content here -->
+    <div id="wrap" class="home">
+
+        <header class="masthead">
+            <div class="slider-container" id="slider">
+                <div class="tp-banner-container">
+                    <div class="tp-banner">
+                        <ul>
+						
+						    <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
+                                <!-- MAIN IMAGE -->
+                                <img src="img/dummy.png" data-lazyload="img/samples/slider-bk2.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                <!-- LAYERS -->
+
+                                <!-- LAYER NR. 1 -->
+                                <div class="tp-caption lfl fadeout" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
+                                    <img src="img/samples/project.png" alt="">
+                                </div>
+                                <div class="tp-caption large_white_bold sft" data-x="520" data-y="center" data-hoffset="0" data-voffset="-120" data-speed="500" data-start="1200" data-easing="Power4.easeOut">
+                                    <h1>welcome</h1>
+                                </div>
+                                <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="-40" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                    We Design
+                                </div>
+                                <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="10" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                    Beautiful, Functional
+                                </div>
+                                <div class="tp-caption large_white_light sfb" data-x="520" data-y="center" data-hoffset="0" data-voffset="60" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                    & Practical Courses in Electronics 
+                                </div>
+                                <div class="tp-caption sfb hidden-xs" data-x="520" data-y="center" data-hoffset="0" data-voffset="150" data-speed="1000" data-start="1700" data-easing="Power4.easeOut">
+                                    <a href="#about" class="btn btn-primary btn-lg">LEARN MORE</a>
+                                </div>
+                            </li>
+							
+                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
+                                <!-- MAIN IMAGE -->
+                                <img src="img/dummy.png" data-lazyload="img/samples/slider-bk.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                <!-- LAYERS -->
+                                <div class="tp-caption italic large_white_light sft hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="-100" data-speed="700" data-start="1300" data-easing="Power4.easeOut">
+                                    Join Us
+                                </div>
+                                <div class="tp-caption italic large_white_light sfl hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="-50" data-speed="700" data-start="1500" data-easing="Power4.easeOut">
+                                    In this Digital 
+                                </div>
+                                <!--<div class="tp-caption italic large_white_light sfb hidden-xs" data-x="left" data-y="center" data-hoffset="147" data-voffset="-50" data-speed="700" data-start="1700" data-easing="Power4.easeOut">
+                                    Digital
+                                </div>-->
+                                <div class="tp-caption italic large_white_light sfr hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="700" data-start="1900" data-easing="Power4.easeOut">
+                                    Maker world.
+                                </div>
+                                <div class="tp-caption lfb " data-x="left" data-y="center" data-hoffset="0" data-voffset="50" data-speed="1000" data-start="1900" data-easing="Power4.easeOut">
+                                    <a href="#about" class="btn btn-naked">Learn More About Us <span class="fa fa-angle-right"></span></a>
+                                </div>
+
+                            </li>
+							
+                            <li data-transition="slotfade-horizontal" data-slotamount="7" data-masterspeed="500">
+                                <!-- MAIN IMAGE -->
+                                <img src="img/dummy.png" data-lazyload="img/samples/slider-bk3.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+                                <!-- LAYERS -->
+
+                                <!-- LAYER NR. 1 -->
+                                <div class="tp-caption sft fadeout" data-x="center" data-y="center" data-hoffset="0" data-voffset="0" data-speed="500" data-start="700" data-easing="Power4.easeOut">
+                                    <img src="img/samples/enroll-bl.png" class="macbook-image" alt="">
+                                </div>
+
+                                <div class="tp-caption large_white_light italic sfb hidden-xs" data-x="left" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                    <a href="#portfolio" class="btn btn-naked">Check Our Classes</a>
+                                </div>
+                                <div class="tp-caption italic large_white_light sft hidden-xs" data-x="right" data-y="center" data-hoffset="0" data-voffset="0" data-speed="1000" data-start="1300" data-easing="Power4.easeOut">
+                                    <a href="#team" class="btn btn-naked">Meet The Founder</a>
+                                </div>
+                            </li>
+                            
+						
+                        </ul>
+                        <div class="tp-bannertimer"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Fixed navbar -->
+            <div class="navbar navbar-static-top" id="nav" role="navigation">
+                
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <i class="fa fa-align-justify"></i>
+                        </button>
+                        <a class="navbar-brand" href="#">
+                            <img src="img/logo-blue.png" alt="">
+                        </a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active"><a href="#slider">Home</a>
+                            </li>
+                            <li><a href="#about">about</a>
+                            </li>
+                            <li><a href="#class-schedule">class-schedule</a>
+                            </li>
+							<li><a href="#portfolio">class-details</a>
+                            </li>		
+                            <li><a href="#team">founder</a>
+                            </li>
+                            <li><a href="#get-in-touch">contact</a>
+                            </li>
+                            <li class="social-nav visible-lg">
+                                <a href="https://twitter.com/KewlBuddiesML"><i class="fa fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/KewlBuddiesMakerLabs/"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
+                </div>
+                <!--/.container -->
+            </div>
+            <!--/.navbar -->
+
+        </header>
+
+        <section id="whoWeAre">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <h1>Kewl Buddies Maker Labs</span>
+                            </h1>
+                            <h4>Do you want your child to be a maker?</h4>
+							<h4>Want them to learn the technology behind cool gadgets with hands-on electronic components like resistor, diode, transistor and 
+more using the brain "Arduino"…</h4>
+							<h4>Interested in learning about the world of 0 & 1...</h4>
+							<h4>This is your opportunity!!
+Set Your Child up for a Greater Success. Enroll them in this new Maker Class <a href="#get-in-touch">NOW!!</a></h4>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="media scrollpoint sp-effect2">
+                            <a class="pull-left" href="#">
+                                <i class="media-object fa fa-bullseye fa-4x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Focuses on:</h4>
+                                <i class="media-object fa fa-check fa-1x"></i>Understanding of electronic circuit diagram.<br/>
+								<i class="media-object fa fa-check fa-1x"></i>Learning to use and build a circuit on breadboard<br/>
+								<i class="media-object fa fa-check fa-1x"></i>Using electronic components like LED, resistor, switches, sensors, remote....<br/>
+                            </div>
+                        </div>
+                        <div class="media scrollpoint sp-effect2">
+                            <a class="pull-left" href="#">
+                                <i class="media-object fa fa-lightbulb-o fa-4x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">In this class kids will</h4>
+                                <i class="media-object fa fa-check fa-1x"></i>Build their own lamp which can be controlled through light, sound or a remote.<br/>
+								<i class="media-object fa fa-check fa-1x"></i>Control LEDs using different kind of switches.<br/>
+								<i class="media-object fa fa-check fa-1x"></i>Make decorative light patterns just like festive lights.<br/>
+								<i class="media-object fa fa-check fa-1x"></i>Change intensity of light - bright to soft or vise-versa.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="media right scrollpoint sp-effect1">
+                            <a class="pull-right" href="#">
+                                <i class="media-object fa fa-gear fa-4x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">Kids will work on various projects like…</h4>
+                                Building a Multicolored lamp.<i class="media-object fa fa-check fa-1x"></i><br/>
+								Constructing a circuit using an LED<i class="media-object fa fa-check fa-1x"></i><br/>
+								Creating a festive light pattern.<i class="media-object fa fa-check fa-1x"></i><br/>
+                            </div>
+                        </div>
+                        <div class="media right scrollpoint sp-effect1">
+                            <a class="pull-right" href="#">
+                                <i class="media-object fa fa-star fa-4x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">This is to name a few.</h4>
+                                <p>More Details can be found <a href="#class-schedule">here</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <h1>about Kewl Buddies Maker <span>Labs</span>
+                            </h1>
+                            <h4>Kewl Buddies Maker is about a technology enthusiast who grew up wondering how television, telephone, computers worked, and ended up designing microchips on VLSI (Very Large Scale Integrated Circuits) technology, ASICs (Application Specific Integrated Circuits) for various multinational companies like STMicroelectronics, Intel...</h4>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <!--<div class="row">
+                            <div class="col-md-12 scrollpoint sp-effect4">
+                                <img src="img/samples/about_page.png" class="img-responsive img-center" alt="">
+                            </div>-->
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="media vertical scrollpoint sp-effect5">
+                                    <a href="#">
+                                        <i class="media-object fa fa-user fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Why us</h4>
+                                        <p>We understand technology and kids better.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="media vertical scrollpoint sp-effect5">
+                                    <a href="#">
+                                        <i class="media-object fa fa-university fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">what we do</h4>
+                                        <p>We introduce kids basics of electronics and help them understand the world of 0 and 1 better.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="media vertical scrollpoint sp-effect5">
+                                    <a href="#">
+                                        <i class="media-object fa fa-history fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">our history</h4>
+                                        <p>We have 10+ years of working industry experience in electronics and circuits.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="highlights">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators vertical">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="img/samples/600-300/handbook_2.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img src="img/samples/600-300/handbook_3.jpg" alt="">
+                                </div>
+                                <div class="item">
+                                    <img src="img/samples/600-300/handbook_1.jpg" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Parent/Student Handbook</h4>
+                        <h5>This is to explain our policies and help you understand <span class="brandy">Kewl Buddies Maker Labs</span> better!</h5>
+                        <p>This Parent handbook was created to promote an understanding of Kewl Buddies Maker Labs policies and procedures. The information in this handbook applies to all activities occurring at our Lab. It is important that parents and students are familiar with these expectations.</p>
+                        <ul>
+                            <li>Please remove the last page of the parent handbook, sign and return it to us before the first class.</li>
+                            <li>It will be kept in your child’s file.</li>
+                            <li>Your signature means you have acknowledged the receipt of the handbook and understood the policies and procedures of Kewl Buddies Maker Labs.</li>
+                            <li>Parent’s Handbook is emailed to all Parents after enrollment and registration confirmation. </li>
+							<li>Please call us or email <a href="mailto:info@jamsportland.com">info@KewlBuddiesMakerLabs.com</a> if you have not received your copy after registration. Thank you!</li>
+                        </ul>
+						<h5><a href="/img/files/KBMLHandbookRev20160221.pdf">Download the handbook</a></h5>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5 scrollpoint sp-effect1">
+                        <img src="img/samples/core-features.png" class="img-responsive ipad-image img-center" alt="">
+                    </div>
+                    <div class="col-md-7 scrollpoint sp-effect2">
+                        <h1>Core Features of <span>KewlBuddiesMakerLabs</span>
+                        </h1>
+                        <div class="media media-circle">
+                            <a class="pull-left" href="#">
+                                <i class="media-object fa fa-angle-right fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">We start from basics.</h4>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="media media-circle">
+                            <a class="pull-left" href="#">
+                                <i class="media-object fa fa-angle-right fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">We keep innovating different ways to explain things better.</h4>
+                                <p></p>
+                            </div>
+                        </div>
+                        <div class="media media-circle">
+                            <a class="pull-left" href="#">
+                                <i class="media-object fa fa-angle-right fa-2x"></i>
+                            </a>
+                            <div class="media-body">
+                                <h4 class="media-heading">We understand both parents and kids and try to accommodate accordingly.</h4>
+                                <p></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="class-schedule">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <h1>Classes we offer</h1>
+                            <h4><i class="media-object fa fa-star fa-1x"></i>Check for early bird offers...</h4>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="media media-class-schedule scrollpoint sp-effect1">
+                                    <a class="pull-left" href="#">
+                                        <i class="media-object fa fa-clock-o fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Upcoming Maker 101 Class Schedule (Batch 1)</h4>
+                                        <p>Class Dates: 4/2, 4/9, 4/16, 4/23, 4/30, 5/7, 5/14, 5/21 (All Saturdays)<br/>
+										Class Timings: <span class="badge">2pm – 2:50pm</span><br/>
+										Cost: $150 per kid ($125 for early Bird!!*) (<i class="media-object fa fa-star fa-1x"></i>Early Bird Offer valid only for enrollments made by March 31st)
+										</p>
+                                    </div>
+                                </div>
+                                <div class="media media-class-schedule scrollpoint sp-effect2">
+                                    <a class="pull-left" href="#">
+                                        <i class="media-object fa fa-clock-o fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Upcoming Maker 101 Class Schedule (Batch 2)</h4>
+                                        <p>Class Dates: 4/16, 4/23, 4/30, 5/7, 5/14, 5/21, 5/28, 6/4 (All Saturdays)<br/>
+										Class Timings: <span class="badge">11am – 11:50am</span><br/>
+										Cost: $150 per kid ($125 for early Bird!!*) (<i class="media-object fa fa-star fa-1x"></i>Early Bird Offer valid only for enrollments made by March 31st)
+										</p>
+                                    </div>
+                                </div>
+                                <div class="media media-class-schedule scrollpoint sp-effect1">
+                                    <a class="pull-left" href="#">
+                                        <i class="media-object fa fa-clock-o fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Upcoming Maker 102 Class Schedule</h4>
+                                        <p>Class Dates: 4/16, 4/23, 4/30, 5/7, 5/14, 5/21, 5/28, 6/4 (All Saturdays).<br/>
+										Class Timings: <span class="badge">1pm – 1:50pm</span><br/>
+										Cost: $200 per kid ($150 for early Bird!!*) (<i class="media-object fa fa-star fa-1x"></i>Early Bird Offer valid only for enrollments made by March 31st)<br/>
+										Prerequisites: Maker 101
+										</p>
+                                    </div>
+                                </div>
+                                <div class="media media-class-schedule scrollpoint sp-effect2">
+                                    <a class="pull-left" href="#">
+                                        <i class="media-object fa fa-clock-o fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Upcoming Maker 101 Programming Class Schedule</h4>
+                                        <p>Class Dates: 4/2, 4/9, 4/16, 4/23, 4/30, 5/7, 5/14, 5/21 (All Saturdays).<br/>
+										Class Timings: <span class="badge">12noon – 12:50pm</span><br/>
+										Cost: $200 per kid ($150 for early Bird!!*) (<i class="media-object fa fa-star fa-1x"></i>Early Bird Offer valid only for enrollments made by March 31st)<br/>
+										Prerequisites: Maker 101
+										</p>
+                                    </div>
+                                </div>
+                                <div class="media media-class-schedule scrollpoint sp-effect1">
+                                    <a class="pull-left" href="#">
+                                        <i class="media-object fa fa-send-o fa-2x"></i>
+                                    </a>
+                                    <div class="media-body">
+                                        <h4 class="media-heading">Current Maker 101 Class Schedule <span class="label label-success">(Class in progress)</span></h4>
+                                        <p>Class Dates: 2/6, 2/13, 2/20, 2/27, 3/5, 3/12, 4/2, 4/9 (<i class="media-object fa fa-star fa-1x"></i>All Saturdays. No class on 3/19 and 3/26)<br/>
+										Class Timings: <span class="badge">1:10pm – 2pm</span>							
+										</p>
+                                    </div>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="buyNow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 scrollpoint sp-effect2">
+                        <img src="img/samples/enroll-bl.png" alt="" class="img-responsive macbook-image img-center">
+                    </div>
+                    <div class="col-md-5 scrollpoint sp-effect1">
+                        <h1>Enroll<span>now</span>
+                        </h1>
+                        <p>Help your child to be a maker by introducing them to the world of 0 and 1. Ride with us in the train of next big technology #IOT </p>
+                        <a href="#get-in-touch" class="btn btn-primary btn-lg">Enroll now</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <h1>Meet the founder</h1>
+                            <h4>A dedicated and passionate maker who loves working with kids and also with integrated circuits and technology.</h4>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--<div class="col-md-3 col-sm-6">-->
+                        <div class="row">
+                            <div class="member scrollpoint sp-effect5">
+                                <div class="member-image">
+                                    <img src="img/samples/team/founder.jpg" alt="" class="img-responsive img-center">
+                                    <div class="member-details">
+                                        <h4>Connect with me</h4>
+                                        <ul class="social">
+                                            <li><a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+                                            </li>
+                                        </ul>
+                                        <p>Come join  us in this digital "Maker" world...</p>
+                                    </div>
+                                </div>
+                                <div class="member-name">
+                                    <h4>Smriti Garg</h4>
+                                    <p>Director and Instructor</p>
+                                </div>
+                            </div>
+                        </div>
+                    <!--</div>-->
+                    <!--<div class="col-md-3 col-sm-6">
+                        <div class="row">
+                            <div class="member scrollpoint sp-effect3">
+                                <div class="member-image">
+                                    <img src="img/samples/team/2.jpg" alt="" class="img-responsive img-center">
+                                    <div class="member-details">
+                                        <h4>Connect with me</h4>
+                                        <ul class="social">
+                                            <li><a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+                                            </li>
+                                        </ul>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, esse molestiae voluptates</p>
+                                    </div>
+                                </div>
+                                <div class="member-name member-odd">
+                                    <h4>jon Doe</h4>
+                                    <p>UI Developer</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="row">
+                            <div class="member scrollpoint sp-effect5">
+                                <div class="member-image">
+                                    <img src="img/samples/team/3.jpg" alt="" class="img-responsive img-center">
+                                    <div class="member-details">
+                                        <h4>Connect with me</h4>
+                                        <ul class="social">
+                                            <li><a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+                                            </li>
+                                        </ul>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, esse molestiae voluptates</p>
+                                    </div>
+                                </div>
+                                <div class="member-name">
+                                    <h4>Sam jones</h4>
+                                    <p>Design Manager</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="row">
+                            <div class="member scrollpoint sp-effect3">
+                                <div class="member-image">
+                                    <img src="img/samples/team/4.jpg" alt="" class="img-responsive img-center">
+                                    <div class="member-details">
+                                        <h4>Connect with me</h4>
+                                        <ul class="social">
+                                            <li><a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                                            </li>
+                                            <li><a href="#"><i class="fa fa-pinterest fa-lg"></i></a>
+                                            </li>
+                                        </ul>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, esse molestiae voluptates</p>
+                                    </div>
+                                </div>
+                                <div class="member-name member-odd">
+                                    <h4>Sofia jones</h4>
+                                    <p>IT Manager</p>
+                                </div>
+                            </div>
+                        </div>-->
+						
+                    </div>
+                </div>
+				
+            </div>
+			<div class="container section-heading"><h4>
+						Hi, my name is Smriti Garg. As a child I always wondered how television, telephone, computers worked? 
+How everyday things could be represented by a simple 0 and 1. 
+This motivated me towards college and led me to study engineering. 
+After completing my engineering (with a major in EE), 
+I took my interest to the next level – designing microchips on VLSI (Very Large Scale Integrated Circuits) technology, 
+ASICs (Application Specific Integrated Circuits) 
+for various multinational companies like STMicroelectronics, Intel… for over 10 years.</h4>
+
+<h4>Along the course, I developed a new passion – working with kids. Being a mother, organizing parties, 
+theme based playdates, volunteering for school I had a lot of interaction with children. 
+During these interactions I observed how kids have curious minds. 
+They tried to get answers for every “Why” that came their way, thereby learning new science daily. 
+This inspired me to start <strong>“Kewl Buddies Maker Labs”</strong> – A platform where children create, learn and build electronics gadgets while having fun every day.
+						</h4></div>
+        </section>
+
+        <section id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <h1>Class Details</h1>
+                            <h4>This is the list of Lessons that the 8 week long Maker 101 class will focus on…</h4>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="filters" class="button-group">
+                        <button data-filter="*" class="current">all classes</button>
+                        <button data-filter=".concept">concept</button>
+                        <button data-filter=".circuits">circuits</button>
+                        <button data-filter=".controlled-led">controlled led</button>
+                        <button data-filter=".lights">lights</button>
+                    </div>
+                    <div id="container">
+                        <div class="item col-md-3 col-sm-6 circuits">
+                            <div class="details">
+                                <img src="img/samples/portfolio/introduction_no_logo.jpg" alt="" class="img-responsive">
+                                <div class="info-wrapper">
+                                    <span class="heart"><i class="fa fa-star-o"></i>
+                                    </span>
+                                    <div class="info">
+                                        <div class="name-tag">
+                                            <h5>This lesson focuses on learning basic concepts of Circuit and Breadboard. Kids will get introduced to Arduino and learn how to power it on and load a program.</h5>
+                                            <span class="divider"></span>
+                                            <p>Lesson 1 - Introduction: </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-md-3 col-sm-6 circuits">
+                            <div class="details">
+                                <img src="img/samples/portfolio/led_blink.jpg" alt="" class="img-responsive">
+                                <div class="info-wrapper">
+                                    <span class="heart"><i class="fa fa-star"></i>
+                                    </span>
+                                    <div class="info">
+                                        <div class="name-tag">
+                                            <h5>This lesson introduces kids on how to build a circuit on a breadboard. Kids use an Arduino to control an LED and make it blink every second</h5>
+                                            <span class="divider"></span>
+                                            <p>Lesson 2 – LED Blink</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-md-3 col-sm-6 mobile">
+                            <div class="details">
+                                <img src="img/samples/portfolio/button_controlled_led.jpg" alt="" class="img-responsive">
+                                <div class="info-wrapper">
+                                    <span class="heart"><i class="fa fa-star-o"></i>
+                                    </span>
+                                    <div class="info">
+                                        <div class="name-tag">
+                                            <h5>This lesson introduces the concept of switches to kids. Kids build their own circuit to turn on and off an LED.</h5>
+                                            <span class="divider"></span>
+                                            <p>Lesson 3 – Button Controlled LED</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-md-3 col-sm-6 circuits">
+                            <div class="details">
+                                <img src="img/samples/portfolio/tilt_switch.jpg" alt="" class="img-responsive">
+                                <div class="info-wrapper">
+                                    <span class="heart"><i class="fa fa-star"></i>
+                                    </span>
+                                    <div class="info">
+                                        <div class="name-tag">
+                                            <h5> In this lesson kids build a circuit and control the LED with a different kind of switch - Tilt Switch.</h5>
+                                            <span class="divider"></span>
+                                            <p>Lesson 4 – Tilt Switch</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-md-3 col-sm-6 concept">
+                            <div class="details">
+                                <img src="img/samples/portfolio/pwm_fading.jpg" alt="" class="img-responsive">
+                                <div class="info-wrapper">
+                                    <span class="heart"><i class="fa fa-star-o"></i>
+                                    </span>
+                                    <div class="info">
+                                        <div class="name-tag">
+                                            <h5>This lesson focuses on the concept of Analog and Digital. Here we vary the brightness of an LED and introduce the kids to the concept of Pulse Width Modulation (PWM).</h5>
+                                            <span class="divider"></span>
+                                            <p>Lesson 5 – PWM Fading</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-md-3 col-sm-6 lights">
+                            <div class="details">
+                                <img src="img/samples/portfolio/rgb_led.jpg" alt="" class="img-responsive">
+                                <div class="info-wrapper">
+                                    <span class="heart"><i class="fa fa-star"></i>
+                                    </span>
+                                    <div class="info">
+                                        <div class="name-tag">
+                                            <h5>Here we introduce the RGB (Red, Green, and Blue) LED to kids. Kids learn about a Color Truth Table and display various colors using an RGB LED.</h5>
+                                            <span class="divider"></span>
+                                            <p>Lesson 6 – RGB LED</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-md-3 col-sm-6 lights">
+                            <div class="details">
+                                <img src="img/samples/portfolio/rolling_lights.jpg" alt="" class="img-responsive">
+                                <div class="info-wrapper">
+                                    <span class="heart"><i class="fa fa-star-o"></i>
+                                    </span>
+                                    <div class="info">
+                                        <div class="name-tag">
+                                            <h5>In this lesson kids learn the concept of Rolling LEDs. Rolling LEDs are similar to festive lights where one LED is on for a brief amount of time and then turns off. At the same time the 2nd LED turns on creating an effect of rolling lights.</h5>
+                                            <span class="divider"></span>
+                                            <p>Lesson 7 – Rolling Lights</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item col-md-3 col-sm-6 controlled-led">
+                            <div class="details">
+                                <img src="img/samples/portfolio/light_controlled_led_lamp.jpg" alt="" class="img-responsive">
+                                <div class="info-wrapper">
+                                    <span class="heart"><i class="fa fa-star"></i>
+                                    </span>
+                                    <div class="info">
+                                        <div class="name-tag">
+                                            <h5>This lesson focuses on building an LED lamp that is controlled by Light. Here kids learn how we can switch on and off an LED lamp with presence/absence of light.</h5>
+                                            <span class="divider"></span>
+                                            <p>Lesson 8 – Light controlled LED lamp</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+						<div class="item col-md-3 col-sm-6 controlled-led">
+                            <div class="details">
+                                <img src="img/samples/portfolio/sound_controlled_led_lamp.jpg" alt="" class="img-responsive">
+                                <div class="info-wrapper">
+                                    <span class="heart"><i class="fa fa-star-o"></i>
+                                    </span>
+                                    <div class="info">
+                                        <div class="name-tag">
+                                            <h5> In this lesson kids learn how an LED lamp can be controlled by sound. They build their own circuit and understand how varying the sound can switch on the LED lamp.</h5>
+                                            <span class="divider"></span>
+                                            <p>Lesson 9 – Sound controlled LED lamp</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+						<div class="item col-md-3 col-sm-6 controlled-led">
+                            <div class="details">
+                                <img src="img/samples/portfolio/remote_controlled_led_lamp.jpg" alt="" class="img-responsive">
+                                <div class="info-wrapper">
+                                    <span class="heart"><i class="fa fa-star"></i>
+                                    </span>
+                                    <div class="info">
+                                        <div class="name-tag">
+                                            <h5>In this lesson Kids learn the concept of how remote works. They build a circuit and control an LED lamp with the remote.</h5>
+                                            <span class="divider"></span>
+                                            <p>Lesson 10 – Remote controlled LED lamp</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<p>* This lesson list is just a guidance. Kewl Buddies Maker Labs reserves the rights to make modifications without notice.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="twitter">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading white scrollpoint sp-effect3">
+                            <h1>kewl buddies maker <span>labs</span> @ facebook</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="carousel-twitter" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-twitter" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-twitter" data-slide-to="1"></li>
+                            <li data-target="#carousel-twitter" data-slide-to="2"></li>
+                        </ol>
+
+                        <!-- Wrapper for slides -->
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-push-2">
+                                        <p>Check for more updates on our facebook page <a href="https://www.facebook.com/KewlBuddiesMakerLabs/">https://www.facebook.com/KewlBuddiesMakerLabs</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-push-2">
+                                        <p>Get upcoming class details and updates in <a href="https://www.facebook.com/KewlBuddiesMakerLabs/">https://www.facebook.com/KewlBuddiesMakerLabs</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="row">
+                                    <div class="col-md-8 col-md-push-2">
+                                        <p>Like and follow us in <a href="https://www.facebook.com/KewlBuddiesMakerLabs/">https://www.facebook.com/KewlBuddiesMakerLabs</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="follow">
+                        <a href="https://www.facebook.com/KewlBuddiesMakerLabs/" class="btn btn-empty text-center">
+                            <i class="fa fa-facebook"></i> Follow
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="get-in-touch">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-push-2 clearfix">
+                        <div class="section-heading scrollpoint sp-effect3">
+                            <h1>get in touch</h1>
+                            <h4>You can call or mail us for all the details.</h4>
+                            <span class="divider"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="contact-details">
+                            <div class="detail">
+                                <h4>Kewl Buddies Maker
+                                    <span class="brandy">labs</span></h4>
+                                <p>portland, OR</p>
+                            </div>
+                            <div class="detail">
+                                <h4>call us</h4>
+                                <p>+1 (503) 841 3345</p>
+                            </div>
+                            <div class="detail">
+                                <h4>email us</h4>
+                                <p><a href="mailto:info@jamsportland.com">info@KewlBuddiesMakerLabs.com</a></p>
+                            </div>
+                            <div class="detail">
+                                <ul class="clearfix">
+                                    <li><a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-twitter fa-2x"></i></a>
+                                    </li>
+                                    <li><a href="https://www.facebook.com/KewlBuddiesMakerLabs/"><i class="fa fa-facebook fa-2x"></i></a>
+                                    </li>
+                                    <li><a href="#"><i class="fa fa-youtube fa-2x"></i></a>
+                                    </li>
+                              
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <!--<form>
+                            <div class="form-group has-feedback left">
+                                <input type="text" class="form-control" placeholder="NAME">
+                                <i class="fa fa-user form-control-feedback"></i>
+                            </div>
+                            <div class="form-group has-feedback left">
+                                <input type="email" class="form-control" placeholder="Email">
+                                <i class="fa fa-envelope-o form-control-feedback"></i>
+                            </div>
+                            <div class="form-group has-feedback left">
+                                <textarea class="form-control" rows="7" placeholder="MESSAGE"></textarea>
+                                <i class="fa fa-pencil-square-o form-control-feedback"></i>
+                            </div>
+                            <button class="btn btn-primary btn-lg pull-right" type="submit">SUBMIT</button>
+
+                        </form>-->
+						<h5><a href="/img/files/KBMLHandbookRev20160221.pdf">Download the parent/student handbook</a></h5>
+						<ul>
+                            <li>Please remove the last page of the parent handbook, sign and return it to us before the first class.</li>
+                            <li>It will be kept in your child’s file.</li>
+                            <li>Your signature means you have acknowledged the receipt of the handbook and understood the policies and procedures of Kewl Buddies Maker Labs.</li>
+                            <li>Parent’s Handbook is emailed to all Parents after enrollment and registration confirmation. </li>
+							<li>Please call or email, if you have not received your copy after registration. Thank you!</li>
+                        </ul>
+						
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+        <!--<section id="map"></section>-->
+
+        <footer id="site-footer">
+            <div class="container">
+                <div class="row">
+                    <span class="divider grey"></span>
+                    <h4>© 2016 Kewl Buddies Maker <span class="brandy">Labs</span>.</h4>
+                    <!--<h5>by <a href="http://www.scoopthemes.com" target="_blank">ScoopThemes</a>-->
+                    </h5>
+                    <a href="#" class="scroll-top">
+                        <img src="img/top.png" alt="" class="top">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!--/wrap-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/stellar.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+
+    <!-- jQuery REVOLUTION Slider  -->
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+    <script type="text/javascript" src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+
+    <script src="js/waypoints.min.js"></script>
+
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+    <script src="js/script.js"></script>
+
+    <script>
+    $(document).ready(function() {
+        appMaster.preLoader();
+        appMaster.smoothScroll();
+        appMaster.animateScript();
+        appMaster.navSpy();
+        appMaster.revSlider();
+        appMaster.stellar();
+        appMaster.skillsChart();
+        appMaster.maps();
+        appMaster.isoTop();
+        appMaster.canvasHack();
+    });
+    </script>
+
+</body>
+
+</html>
