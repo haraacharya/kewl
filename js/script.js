@@ -277,6 +277,11 @@ var appMaster = {
             // options
             itemSelector: '.item'
         });
+	
+	$container.isotope({
+            // options
+            filter: '.junior-maker-101'
+        });
 
         $('#filters').on('click', 'button', function() {
             $('#filters button').removeClass("current");
